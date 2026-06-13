@@ -1,4 +1,4 @@
-# Brazil WC 2026 Match Predictor 🇧🇷🏆
+# Brazil World Cup 2026 Match Predictor 🇧🇷🏆
 
 A machine learning pipeline built in Python with XGBoost and Poisson regression that predicts Brazil's 2026 FIFA World Cup match outcomes and scorelines using historical international football data going back to 1872.
 
