@@ -1,6 +1,6 @@
-# WC 2026 Match Predictor 🏆
+# Brazil WC 2026 Match Predictor 🇧🇷🏆
 
-A machine learning pipeline that predicts World Cup match outcomes and scorelines using historical international football data going back to 1872.
+A machine learning pipeline that predicts Brazil's 2026 FIFA World Cup match outcomes and scorelines using historical international football data going back to 1872.
 
 Built in Python with XGBoost and Poisson regression.
 
@@ -32,8 +32,8 @@ python3 -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-# Run
-python prediction.py
+# Run — pass Brazil's opponent as the second argument
+python prediction.py "Brazil" "Morocco"
 ```
 
 ---
@@ -60,20 +60,21 @@ Scoreline    Result          Probability
 
 ---
 
-## Changing the match
+## Running predictions for each Brazil game
 
-To predict a different game, edit the two function calls at the bottom of `prediction.py`:
+Pass Brazil's opponent as the second argument — no need to edit any code:
 
-```python
-predict_match(..., home_team="Brazil", away_team="Croatia", ...)
-predict_scoreline(..., home_team="Brazil", away_team="Croatia", ...)
+```bash
+python prediction.py "Brazil" "Morocco"
+python prediction.py "Brazil" "Croatia"
+python prediction.py "Brazil" "Germany"
 ```
 
-To refresh the data before a match (pulls latest results from GitHub):
+To refresh the data before a match (pulls the latest results from GitHub):
 
 ```bash
 rm -rf data_cache/
-python prediction.py
+python prediction.py "Brazil" "Morocco"
 ```
 
 ---
