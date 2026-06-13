@@ -4,8 +4,8 @@ A machine learning pipeline that predicts Brazil's 2026 FIFA World Cup match out
 
 Built in Python with XGBoost and Poisson regression.
 
-![BRAZIL]https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWxpM2YyeWtpcjdqY2NuOTd1eXI5bm5teGJzdzR6dmE1cW5hNWNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dWrDicEgHO52f9k8Du/giphy.gif
-
+![BRAZIL](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWxpM2YyeWtpcjdqY2NuOTd1eXI5bm5teGJzdzR6dmE1cW5hNWNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dWrDicEgHO52f9k8Du/giphy.gif
+)
 ---
 
 ## How it works
